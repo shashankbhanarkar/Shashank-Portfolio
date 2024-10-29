@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shashank Portfolio</title>
+    <script src="script.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- AOS CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css"
+    />
+
+    <!-- AOS JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="main-header bg-dark fixed-top">
+      <nav class="container navbar navbar-expand-lg">
+        <a href="#"
+          ><img
+            src="./Images/logo.jpg"
+            alt="logo"
+            class="navbar-brand rounded-circle logo"
+        /></a>
+        <button
+          class="navbar-toggler bg-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4 fs-5"
+            id="navbar-list"
+          >
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="sections mt-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <!-- Developer Info Section -->
+            <div class="devInfo col-md-8 mb-4 text-center text-md-start">
+              <div class="hello display-6">Hi, I am</div>
+              <div class="name fw-bold display-5">Shashank Bhanarkar</div>
+              <div class="about mb-3">
+                Programmer, Developer, Coding Enthusiast
+              </div>
+              <div class="moreabout mb-4">
+                I am a proficient Web Developer with expertise in HTML, CSS, and
+                JavaScript, specializing in creating responsive and visually
+                engaging websites. My skills in Bootstrap allow me to craft
+                mobile-first, consistent designs across all devices, while my
+                experience with React enables the development of dynamic,
+                component-based interfaces that enhance user interaction.
+              </div>
+              <div class="buttons">
+                <a href="/cv.txt" class="btn btn-outline-light me-3"
+                  >Download Resume</a
+                >
+                <a href="#contact" class="btn btn-outline-light">Contact Me</a>
+              </div>
+            </div>
+
+            <!-- Developer Picture Section -->
+            <div class="col-md-4 text-center">
+              <img
+                src="Images/Shashank-img.png"
+                alt="Developer"
+                class="img-fluid devPic"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section id="about" class="sections">
+        <div class="container">
+          <h2 class="text-center mb-5">About Me</h2>
+          <p class="lead text-center mb-5">
+            I am a proficient frontend web developer with expertise in HTML,
+            CSS, and JavaScript, specializing in creating responsive and
+            visually engaging websites. My skills in Bootstrap allow me to craft
+            mobile-first, consistent designs across all devices, ensuring
+            optimal performance and usability. I have a strong foundation in
+            responsive design principles, which enables me to create layouts
+            that adapt seamlessly to various screen sizes.
+          </p>
+          <p class="lead text-center mb-5">
+            My experience with React empowers me to develop dynamic,
+            component-based interfaces that enhance user interaction and deliver
+            a smooth, engaging experience. I am well-versed in state management,
+            hooks, and lifecycle methods, which allows me to build efficient and
+            scalable applications. Additionally, I utilize npm for managing
+            dependencies in React projects. I prioritize code quality and
+            maintainability by adhering to best practices and utilizing version
+            control tools like Git and GitHub, along with deployment services
+            such as Netlify, to streamline the development process.
+          </p>
+
+          <h2 class="text-center mb-4">My Skills</h2>
+
+          <!-- Using Now Section -->
+          <h3 class="text-center mb-4">Using Now:</h3>
+          <div class="row text-center">
+            <div class="col-6 col-md-3 mb-3">
+              <img
+                src="./Images/html5.png"
+                alt="HTML5"
+                class="img-fluid skill-img"
+              />
+              <p class="mt-2">HTML5</p>
+            </div>
+            <div class="col-6 col-md-3 mb-3">
+              <img
+                src="./Images/css3.png"
+                alt="CSS3"
+                class="img-fluid skill-img"
+              />
+              <p class="mt-2">CSS3</p>
+            </div>
+            <div class="col-6 col-md-3 mb-3">
+              <img
+                src="./Images/javascript.png"
+                alt="JavaScript"
+                class="img-fluid skill-img"
+              />
+              <p class="mt-2">JavaScript</p>
+            </div>
+            <div class="col-6 col-md-3 mb-3">
+              <img
+                src="./Images/bootstrap.png"
+                alt="Bootstrap"
+                class="img-fluid skill-img"
+              />
+              <p class="mt-2">Bootstrap</p>
+            </div>
+            <div class="col-6 col-md-3 mb-3">
+              <img
+                src="./Images/react.png"
+                alt="React"
+                class="img-fluid skill-img"
+              />
+              <p class="mt-2">React</p>
+            </div>
+          </div>
+
+          <!-- Learning Section -->
+          <h3 class="text-center mb-4">Learning:</h3>
+          <div class="row text-center">
+            <div class="col-6 col-md-3 mb-3">
+              <img
+                src="./Images/nodejs.png"
+                alt="Node.js"
+                class="img-fluid skill-img"
+              />
+              <p class="mt-2">Node.js</p>
+            </div>
+            <div class="col-6 col-md-3 mb-3">
+              <img
+                src="./Images/expressjs.png"
+                alt="Express.js"
+                class="img-fluid skill-img"
+              />
+              <p class="mt-2">Express.js</p>
+            </div>
+            <div class="col-6 col-md-3 mb-3">
+              <img
+                src="./Images/mongodb.png"
+                alt="MongoDB"
+                class="img-fluid skill-img"
+              />
+              <p class="mt-2">MongoDB</p>
+            </div>
+            <div class="col-6 col-md-3 mb-3">
+              <img
+                src="./Images/typescript.png"
+                alt="TypeScript"
+                class="img-fluid skill-img"
+              />
+              <p class="mt-2">TypeScript</p>
+            </div>
+          </div>
+
+          <!-- Other Skills Section -->
+          <h3 class="text-center mb-4">Other Skills:</h3>
+          <div class="row text-center">
+            <div class="col-6 col-md-3 mb-3">
+              <img
+                src="./Images/git.png"
+                alt="Git"
+                class="img-fluid skill-img"
+              />
+              <p class="mt-2">Git</p>
+            </div>
+            <div class="col-6 col-md-3 mb-3">
+              <img
+                src="./Images/github.png"
+                alt="GitHub"
+                class="img-fluid skill-img"
+              />
+              <p class="mt-2">GitHub</p>
+            </div>
+            <div class="col-6 col-md-3 mb-3">
+              <img
+                src="./Images/netlify.svg"
+                alt="netlify"
+                class="img-fluid skill-img"
+              />
+              <p class="mt-2">Netlify</p>
+            </div>
+            <div class="col-6 col-md-3 mb-3">
+              <img
+                src="./Images/Npm.png"
+                alt="npm"
+                class="img-fluid skill-img"
+              />
+              <p class="mt-2">npm</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section id="services" class="sections">
+        <div class="container">
+          <h2 class="text-center mb-5">My Services</h2>
+          <div class="row g-4">
+            <!-- Service 1: Web Development -->
+            <div class="col-md-4">
+              <div class="card shadow-sm h-100">
+                <img
+                  src="./Images/web-development.jpeg"
+                  class="card-img-top"
+                  alt="Web Development"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Web Development</h5>
+                  <p class="card-text">
+                    I design and develop responsive, high-quality websites using
+                    modern web technologies like HTML, CSS, JavaScript, and
+                    Bootstrap to ensure mobile-friendly and SEO-optimized
+                    results.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Service 2: UI/UX Design -->
+            <div class="col-md-4">
+              <div class="card shadow-sm h-100">
+                <img
+                  src="./Images/ui-ux-design.avif"
+                  class="card-img-top"
+                  alt="UI/UX Design"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">UI/UX Design</h5>
+                  <p class="card-text">
+                    I provide intuitive and visually appealing user interface
+                    (UI) and user experience (UX) designs, ensuring ease of use
+                    and a seamless user journey for your web and mobile
+                    applications.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Service 3: SEO Optimization -->
+            <div class="col-md-4">
+              <div class="card shadow-sm h-100">
+                <img
+                  src="./Images/seo-optimization.png"
+                  class="card-img-top"
+                  alt="SEO Optimization"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">SEO Optimization</h5>
+                  <p class="card-text">
+                    I offer comprehensive SEO optimization services to help
+                    improve your website's visibility in search engines, driving
+                    more organic traffic and enhancing your online presence.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section id="projects" class="sections">
+        <div class="container">
+          <h2 class="text-center mb-5">My Projects</h2>
+          <div class="row g-4">
+            <!-- Project 1: Static LinkedIn Page -->
+            <div class="col-md-4">
+              <div class="card shadow-sm h-100">
+                <img
+                  src="./Images/LinkedIn-Page.png"
+                  class="card-img-top border-bottom border-dark"
+                  height="100%"
+                  alt="Static LinkedIn Page"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Static LinkedIn Page</h5>
+                  <p class="card-text">
+                    Explore a static recreation of LinkedIn's homepage,
+                    showcasing a clean layout and responsive design using HTML
+                    and CSS.
+                  </p>
+                  <a
+                    href="https://shashankbhanarkar.github.io/Static-LinkedIn-Page"
+                    class="btn btn-outline-dark"
+                    >View Project</a
+                  >
+                  <a
+                    href="https://github.com/shashankbhanarkar/Static-LinkedIn-Page"
+                    class="btn btn-outline-dark"
+                    >Source Code</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 2: Quiz Web Application -->
+            <div class="col-md-4">
+              <div class="card shadow-sm h-100">
+                <img
+                  src="./Images/Quiz-app.png"
+                  class="card-img-top border-bottom border-dark"
+                  height="100%"
+                  alt="Quiz App"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Quiz Web Application</h5>
+                  <p class="card-text">
+                    A simple Quiz App with multiple-choice questions, score
+                    tracking, and a clean UI, built using HTML, CSS, and
+                    JavaScript.
+                  </p>
+                  <a
+                    href="https://shashankbhanarkar.github.io/Quiz-App"
+                    class="btn btn-outline-dark"
+                    >View Project</a
+                  >
+                  <a
+                    href="https://github.com/shashankbhanarkar/Quiz-App"
+                    class="btn btn-outline-dark"
+                    >Source Code</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 3: Conference Website -->
+            <div class="col-md-4">
+              <div class="card shadow-sm h-100">
+                <img
+                  src="./Images/Styles-conference.png"
+                  class="card-img-top border-bottom border-dark"
+                  height="100%"
+                  alt="Conference Website"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Conference Website</h5>
+                  <p class="card-text">
+                    A modern, responsive conference website designed using HTML
+                    and CSS. The project emphasizes user-friendly navigation and
+                    mobile responsiveness.
+                  </p>
+                  <a
+                    href="https://shashankbhanarkar.github.io/Styles-Conference"
+                    class="btn btn-outline-dark"
+                    >View Project</a
+                  >
+                  <a
+                    href="https://github.com/shashankbhanarkar/Styles-Conference"
+                    class="btn btn-outline-dark"
+                    >Source Code</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 4: Music Website -->
+            <div class="col-md-4">
+              <div class="card shadow-sm h-100">
+                <img
+                  src="./Images/Music-Website.png"
+                  class="card-img-top border-bottom border-dark"
+                  height="100%"
+                  alt="Music Website"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Music Website</h5>
+                  <p class="card-text">
+                    A visually engaging static music website created with HTML
+                    and CSS. Features include artist highlights and album cover
+                    displays in a clean, responsive layout.
+                  </p>
+                  <a
+                    href="https://shashankbhanarkar.github.io/Music-Website"
+                    class="btn btn-outline-dark"
+                    >View Project</a
+                  >
+                  <a
+                    href="https://github.com/shashankbhanarkar/Music-Website"
+                    class="btn btn-outline-dark"
+                    >Source Code</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 5: Survey Form -->
+            <div class="col-md-4">
+              <div class="card shadow-sm h-100">
+                <img
+                  src="./Images/Survey-Form.png"
+                  class="card-img-top border-bottom border-dark"
+                  height="100%"
+                  alt="Survey Form"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Survey Form</h5>
+                  <p class="card-text">
+                    A responsive and user-friendly survey form designed with
+                    HTML and CSS. Perfect for collecting valuable feedback and
+                    insights in a clean layout.
+                  </p>
+                  <a
+                    href="https://shashankbhanarkar.github.io/Survey-Form"
+                    class="btn btn-outline-dark"
+                    >View Project</a
+                  >
+                  <a
+                    href="https://github.com/shashankbhanarkar/Survey-Form"
+                    class="btn btn-outline-dark"
+                    >Source Code</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 6: Space Shooter Game -->
+            <div class="col-md-4">
+              <div class="card shadow-sm h-100">
+                <img
+                  src="./Images/space-shooter-game.png"
+                  class="card-img-top border-bottom border-dark"
+                  height="100%"
+                  alt="Space Shooter Game"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Space Shooter Game</h5>
+                  <p class="card-text">
+                    A 2D Space Shooter Game Developed using HTML, CSS, and
+                    JavaScript. The game includes mobile touch controls and
+                    responsive design.
+                  </p>
+                  <a
+                    href="https://shashankbhanarkar.github.io/Space-Shooter-Game/"
+                    class="btn btn-outline-dark"
+                    >View Project</a
+                  >
+                  <a
+                    href="https://github.com/shashankbhanarkar/Space-Shooter-Game"
+                    class="btn btn-outline-dark"
+                    >Source Code</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section id="contact" class="sections container">
+        <div class="row">
+          <h2 class="text-center mb-5">Contact Me</h2>
+          <!-- Contact Information -->
+          <div class="col-md-6">
+            <h2>Contact Information</h2>
+            <ul class="list-unstyled pt-3">
+              <li><strong>Email:</strong> shashankbhanarkar23@gmail.com</li>
+              <li><strong>Phone:</strong> 7709106250</li>
+              <li>
+                <strong>Address:</strong> Jagnath Budhwari, near T.B. Hospital,
+                Nagpur, India
+              </li>
+            </ul>
+            <h2 class="pt-4">Follow Me</h2>
+            <div class="social-icons pt-3">
+              <a
+                href="https://www.linkedin.com/in/shashankbhanarkar"
+                class="text-white link-underline link-underline-opacity-0 mx-2"
+                ><i class="bi bi-linkedin"></i> LinkedIn</a
+              ><br />
+              <a
+                href="https://github.com/shashankbhanarkar"
+                class="text-white link-underline link-underline-opacity-0 mx-2"
+                ><i class="bi bi-github"></i> GitHub</a
+              ><br />
+              <a
+                href="https://x.com/ShashankB2304"
+                class="text-white link-underline link-underline-opacity-0 mx-2"
+                ><i class="bi bi-twitter"></i> Twitter</a
+              ><br />
+              <a
+                href="https://www.instagram.com/__king.shashank__"
+                class="text-white link-underline link-underline-opacity-0 mx-2"
+                ><i class="bi bi-instagram"></i> Instagram</a
+              >
+            </div>
+          </div>
+          <!-- Contact Form -->
+          <div class="col-md-6 border-start border-secondary ps-5">
+            <h2>Send a Message</h2>
+            <form
+              action="https://api.web3forms.com/submit"
+              method="POST"
+              id="form"
+              class="row g-3"
+            >
+              <div class="row g-2 gap-2">
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="1d6dfab5-d0a6-475c-b9e8-d45065e464a7"
+                />
+                <div class="col">
+                  <label for="first-name" class="form-label">First Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="first-name"
+                    name="first-name"
+                    placeholder="First name"
+                    aria-label="First name"
+                    required
+                  />
+                </div>
+                <div class="col">
+                  <label for="last-name" class="form-label">Last Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="last-name"
+                    name="last-name"
+                    placeholder="Last name"
+                    aria-label="Last name"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="col-md-12">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="col-md-12">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-outline-light">
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center text-lg-start mt-5">
+      <div class="container p-4">
+        <div class="row">
+          <!-- About Section -->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">About Me</h5>
+            <p>
+              I'm Shashank Bhanarkar, I am a passionate web developer with
+              expertise in building responsive and engaging websites. I love to
+              learn and implement new technologies.
+            </p>
+          </div>
+
+          <!-- Links Section -->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Quick Links</h5>
+            <ul class="list-unstyled mb-0">
+              <li><a href="#" class="text-white">Home</a></li>
+              <li><a href="#about" class="text-white">About</a></li>
+              <li><a href="#services" class="text-white">Services</a></li>
+              <li><a href="#projects" class="text-white">Projects</a></li>
+              <li><a href="#contact" class="text-white">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Social Media Section -->
+          <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Follow Me</h5>
+            <a
+              href="https://www.linkedin.com/in/shashankbhanarkar"
+              class="text-white me-3"
+              ><i class="bi bi-linkedin"></i> LinkedIn</a
+            ><br />
+            <a
+              href="https://github.com/shashankbhanarkar"
+              class="text-white me-3"
+              ><i class="bi bi-github"></i> GitHub</a
+            ><br />
+            <a href="https://x.com/ShashankB2304" class="text-white"
+              ><i class="bi bi-twitter"></i> Twitter</a
+            ><br />
+            <a
+              href="https://www.instagram.com/__king.shashank__"
+              class="text-white"
+              ><i class="bi bi-instagram"></i> Instagram</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center p-3 bg-secondary">
+        &copy; 2024 Shashank Bhanarkar. All Rights Reserved.
+      </div>
+    </footer>
+  </body>
+</html>
